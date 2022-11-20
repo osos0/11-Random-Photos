@@ -1,13 +1,41 @@
 body {
   margin: 0;
-  background-color: orangered;
+  background-color: brown;
   display: flex;
   flex-direction: column;
-}
+  justify-content: center;
+  align-items: center;
+  }
 
 .contaner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 20px ;
+  width: 100%;
+}
+
+img {
+  margin: 10px ;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.3);
+}
+
+.btn{
+  background: blueviolet;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  width: 200px;
+  font-weight: bold;
+  font-family: cursive;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.3);
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
 }
